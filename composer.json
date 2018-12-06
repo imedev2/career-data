@@ -1,0 +1,10 @@
+{
+    "name": "imedev2/career1",
+    "description": "migrations and models",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "imedev2\\career1\\": "src/"
+        }
+    }
+}
