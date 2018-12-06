@@ -2,7 +2,7 @@
     "name": "imedev2/career1",
     "description": "migrations and models",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
