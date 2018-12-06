@@ -12,7 +12,7 @@ class Company extends Model
 
     public function jobs()
     {
-        return $this->hasMany('Imedev2\Career\Models\Job');
+        return $this->hasMany('Imedev2\Career1\Models\Job');
     }
 
 }

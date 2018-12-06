@@ -52,11 +52,11 @@ class JobReq extends Model
 
     public function job()
     {
-        return $this->belongsTo('Imedev2\Career\Models\Job','job_id');
+        return $this->belongsTo('Imedev2\Career1\Models\Job','job_id');
     }
 
     public function file()
     {
-        return $this->hasOne('Imedev2\Career\Models\File','jobReq_id');
+        return $this->hasOne('Imedev2\Career1\Models\File','jobReq_id');
     }
 }
