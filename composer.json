@@ -1,7 +1,7 @@
 {
     "name": "imedev2/career1",
     "description": "migrations and models",
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
