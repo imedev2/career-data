@@ -20,7 +20,7 @@ class Job extends Model
     {
         return [
             'slug' => [
-                'source' => 'rand_url',
+                'source' => 'rand',
                 'onUpdate'  => true,
             ]
         ];
@@ -37,7 +37,7 @@ class Job extends Model
         'visible',
         'up_date',
         'slug',
-        'rand_url'
+        'rand'
     ];
 
     protected $appends = ['new_job_id'];
