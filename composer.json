@@ -1,11 +1,18 @@
 {
     "name": "imedev2/career1",
     "description": "migrations and models",
-    "minimum-stability": "dev",
+    "license": "MIT",
+    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
-            "imedev2\\career1\\": "src/"
+            "Imedev2\\Career1\\": "src/"
         }
     }
 }
+
+
+
+
+
+
